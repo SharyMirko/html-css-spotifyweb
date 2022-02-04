@@ -96,6 +96,7 @@ li img {
     display: flex;
     background-color: #141922;
     width: calc(100% - 190px);
+    height: 100%;
     overflow-y: auto;
 }
 @media screen and (max-width:450px) {
@@ -109,7 +110,6 @@ li img {
         width: calc(100% - 90px);
     }
 }
-
 
 
 .main-bar {
