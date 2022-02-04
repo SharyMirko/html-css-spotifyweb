@@ -32,7 +32,6 @@ ul {
 
 .sidebar {
     width: 190px;
-    height: 100%;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -88,6 +87,51 @@ li img {
     .sidebar {
         width: 90px;
     }
+}
+
+/* sidebar - playlist */
+
+.playlist {
+    margin: 0 20px;
+    height: 50%;
+}
+
+.scroll {
+    height: 80%;
+    overflow-y: auto;
+}
+
+.playlist li a {
+    margin-top: 5px;
+}
+
+h3 {
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.addplaylist {
+    width: 30px;
+    height: 30px;
+    background-color: #6D6D6D;
+    margin-right: 5px;
+}
+
+.addplaylist i {
+    font-size: 16px;
+    color: black;
+    padding: 25%;
+}
+
+/* sidebar last block */
+
+.lastblock {
+}
+
+.download img {
+    width: 10px;
 }
 
 /* CONTENUTI */
