@@ -144,6 +144,32 @@ h3 {
 
 /* CONTENUTI */
 
+.spendiliduspicci {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(76, 76, 76, 0.5);
+    height: 3rem;
+    width: calc(100% - 10rem);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.cheschifoipoveri {
+    width: 10rem;
+    border-radius: 25px;
+    border: 2px solid white;
+    background-color: transparent;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    z-index: 2;
+    margin-right: 1rem;
+}
+
 .container-content {
     display: flex;
     background-color: #141922;
