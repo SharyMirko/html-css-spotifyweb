@@ -173,11 +173,12 @@ h3 {
 /* CONTENUTI */
 
 .margin-left {
-    margin-left: 1em;
+    margin-left: 1rem;
 }
 
 .container-content {
     display: flex;
+    flex-direction: column;
     background-color: #141922;
     width: calc(100% - 10rem);
     height: calc(100% - 4rem);
@@ -191,7 +192,7 @@ h3 {
 
 .categories {
     display: flex;
-    margin: 6rem auto;
+    margin: 6rem auto 2rem;
 }
 
 .categories ul {
@@ -210,13 +211,49 @@ h3 {
 }
 
 
-
 .underline {
     width: 40%;
     height: 2px;
     background-color: lime;
     border-radius: 5px;
     margin: auto;
+}
+
+.title {
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+section {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.thumb-recent {
+    width: calc((100% - 6rem) / 6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.thumb-recent img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.nameplaylist {
+    font-weight: 600;
+    color: white;
+}
+
+.subtile {
+    color: #6D6D6D;
+    font-weight: 300;
+    font-size: 10px;
 }
 
 /* PLAYER-BAR */
