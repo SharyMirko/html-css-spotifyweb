@@ -251,7 +251,6 @@ section {
 }
 
 
-
 .thumb-recent {
     width: calc((100% - 6rem) / 6);
     display: flex;
