@@ -82,7 +82,7 @@
            
             <div class="categories">
                 <ul>
-                    <li><a href="#!">in evidenza</a><div class="underline"></div></li>
+                    <li class="active"><a href="#!">in evidenza</a><div class="underline"></div></li>
                     <li><a href="#!">podcast</a></li>
                     <li><a href="#!">classifiche</a></li>
                     <li><a href="#!">generi e mood</a></li>
@@ -96,12 +96,18 @@
                     <h1>Recently Played</h1>
                 </div>
                 <div class="thumb-recent">
-                    <img src="img/metal_lifting.jpg" alt="musica metal">
+                    <div class="hoverlay">
+                        <img src="img/metal_lifting.jpg" alt="musica metal">
+                        <div class="playthis"><i class="far fa-play-circle"></i></div>
+                        </div>
                     <span class="nameplaylist">Heavy Metal</span>
                     <span class="subtile">Subtitle</span>
                 </div>
                 <div class="thumb-recent">
-                    <img src="img/stranger.jpeg" alt="musica metal">
+                    <div class="hoverlay">
+                        <img src="img/stranger.jpeg" alt="Stranger things">
+                        <div class="playthis"><i class="far fa-play-circle"></i></div>
+                        </div>
                     <span class="nameplaylist">Stranger Things, Vol.
                         1 (a Netflix Original
                         Series Soundtrack)</span>
@@ -109,24 +115,33 @@
                 </div>
                 <div class="thumb-recent">
                     <div class="hoverlay">
-                    <img src="img/aquietplace.jpeg" alt="musica metal">
+                    <img src="img/aquietplace.jpeg" alt="Quite place">
                     <div class="playthis"><i class="far fa-play-circle"></i></div>
                     </div>
                     <span class="nameplaylist">A quiet place</span>
                     <span class="subtile">Subtitle</span>
                 </div>
                 <div class="thumb-recent">
-                    <img src="img/split.jpeg" alt="musica metal">
+                    <div class="hoverlay">
+                        <img src="img/split.jpeg" alt="Split">
+                        <div class="playthis"><i class="far fa-play-circle"></i></div>
+                        </div>
                     <span class="nameplaylist">Split</span>
                     <span class="subtile">Subtitle</span>
                 </div>
                 <div class="thumb-recent">
-                    <img src="img/cure.jpeg" alt="musica metal">
+                    <div class="hoverlay">
+                        <img src="img/cure.jpeg" alt="cure fir wellness">
+                        <div class="playthis"><i class="far fa-play-circle"></i></div>
+                        </div>
                     <span class="nameplaylist">A cure for wellness</span>
                     <span class="subtile">Subtitle</span>
                 </div>
                 <div class="thumb-recent">
-                    <img src="img/sinister.jpeg" alt="musica metal">
+                    <div class="hoverlay">
+                        <img src="img/sinister.jpeg" alt="Sinister">
+                        <div class="playthis"><i class="far fa-play-circle"></i></div>
+                        </div>
                     <span class="nameplaylist">Sinister</span>
                     <span class="subtile">Subtitle</span>
                 </div>
@@ -169,10 +184,10 @@
                <div class="inplay">
                     <div class="ongointrack"></div>
                     <span class="titlesong">I't My Life<br>
-                    <span class="author"> The indian guy</span></span>
+                    <span class="author"> <a href="#!">The Indian guy</a></span></span>
                     <div class="btn-like">
-                        <i class="far fa-heart"></i>
-                        <i class="far fa-folder"></i>
+                        <a href="#!"><i class="far fa-heart"></i></a>
+                        <a href="#!"><i class="far fa-folder"></i></a>
                     </div>
                </div>
 
@@ -188,17 +203,17 @@
                 <div class="control-statusbar">
                     <span>1:34</span>
                     <div class="status">
-                        <div class="greenstatus"></div>
+                        <div class="whithestatus"></div>
                     </div>
                     <span>3:21</span>
                 </div>
             </div>
 
             <div class="lastbtn">
-                <i class="fas fa-list"></i>
-                <i class="fas fa-desktop"></i>
-                <i class="fas fa-volume-up"></i>
-                <div class="volume"></div>
+                <a href="#!"><i class="fas fa-list"></i></a>
+                <a href="#!"><i class="fas fa-desktop"></i></a>
+                <a id="volume" href="#!"><i class="fas fa-volume-up"></i></a>
+                <div class="volume"><div class="greenstatus"></div></div>
             </div>
         </div>
 
